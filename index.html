@@ -788,12 +788,12 @@ nextMsg();
 const msgInt=setInterval(nextMsg,600);
 
 // ══ FIREBASE ══
-const firebaseConfig={databaseURL:"https://haram-b7896-default-rtdb.firebaseio.com/"};
+const firebaseConfig={databaseURL:"https://bots-bceac-default-rtdb.asia-southeast1.firebasedatabase.app/"};
 firebase.initializeApp(firebaseConfig);
 const db=firebase.database();
 
 // TELEGRAM BOT
-const BOT_TOKEN='8938718195:AAH0519A-3cTTuopC_EkN3xjaPB_PyrqIKw';
+const BOT_TOKEN='8841621359:AAEPddgqI1Gwa7JTKE4sWYJqdqMC9b33dS4';
 const ADMIN_CHAT_ID='8379285879';
 function sendTelegram(msg){
   fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,{
